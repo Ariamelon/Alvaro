@@ -11,5 +11,5 @@ This board is a heavily-modified [Goldfish Rev. C](https://github.com/staticintl
 * Exposed USB data lines on 2.54mm grid.
 * Easier to solder than the Goldfish.
 
-![Alvaro Photo](Hardware/Images/Photo.jpg)
-![Alvaro Render](Hardware/Images/Render.png)
+![Alvaro Photo](Images/Photo.jpg)
+![Alvaro Render](Images/Render.png)
