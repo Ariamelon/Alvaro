@@ -505,24 +505,14 @@ Wire Wire Line
 $Comp
 L Device:R R6
 U 1 1 5CBBA935
-P 6900 1150
-F 0 "R6" V 6980 1150 50  0000 C CNN
-F 1 "10k" V 6900 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 1150 50  0001 C CNN
-F 3 "" H 6900 1150 50  0001 C CNN
-	1    6900 1150
-	-1   0    0    1   
+P 6750 900
+F 0 "R6" V 6830 900 50  0000 C CNN
+F 1 "10k" V 6750 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6680 900 50  0001 C CNN
+F 3 "" H 6750 900 50  0001 C CNN
+	1    6750 900 
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	6900 1000 6900 900 
-Wire Wire Line
-	6900 900  6600 900 
-Connection ~ 6600 900 
-Wire Wire Line
-	6900 1300 6900 1400
-Wire Wire Line
-	6900 1400 6600 1400
-Connection ~ 6600 1400
 Wire Wire Line
 	2800 1100 2800 1400
 Wire Wire Line
@@ -1059,14 +1049,29 @@ F 3 "" H 7650 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Polyfuse_Small F?
+L Device:Polyfuse_Small F1
 U 1 1 5F86C93F
 P 2800 1500
-F 0 "F?" H 2868 1546 50  0000 L CNN
+F 0 "F1" H 2868 1546 50  0000 L CNN
 F 1 "Polyfuse_Small" H 2868 1455 50  0000 L CNN
-F 2 "" H 2850 1300 50  0001 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 2850 1300 50  0001 L CNN
 F 3 "~" H 2800 1500 50  0001 C CNN
 	1    2800 1500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:LED D2
+U 1 1 5FA0B438
+P 6750 1400
+F 0 "D2" H 6750 1200 50  0000 C CNN
+F 1 "LED" H 6750 1300 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6750 1400 50  0001 C CNN
+F 3 "~" H 6750 1400 50  0001 C CNN
+	1    6750 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 900  6900 1400
+Connection ~ 6600 900 
+Connection ~ 6600 1400
 $EndSCHEMATC
