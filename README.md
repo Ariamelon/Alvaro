@@ -19,6 +19,6 @@ This board is a heavily-modified [Goldfish Rev. C](https://github.com/staticintl
 ## Changelog
 * 27/09/2020: Initial commit.
 * 29/09/2020: Switched D1 size from SOD323 to SOD123.
-* 13/10/2020: Updated to V1.1 - added F1 1206 500mA polyfuse.
-* 17/10/2020: Updated to V1.2 - moved location of parts closer to center.
-* 31/10/2020: Updated to V1.3 - added 0603 power indicator LED, changed R6 from 10k to 1k LED resistor.
+* 13/10/2020: Updated to V1.1. Added F1 1206 500mA polyfuse.
+* 17/10/2020: Updated to V1.2. Moved location of parts closer to center.
+* 31/10/2020: Updated to V1.3. Added 0603 power indicator LED, changed R6 from 10k to 1k LED resistor.
