@@ -12,7 +12,6 @@ This board is a heavily-modified [Goldfish Rev. C](https://github.com/staticintl
 * Easier to solder than the Goldfish.
 * Has fuse unlike Goldfish.
 * On-board power LED.
-* Fully hand-solderable.
 
 ![Alvaro Photo](Images/Photo.jpg)
 ![Alvaro Render](Images/Render.png)
@@ -23,4 +22,3 @@ This board is a heavily-modified [Goldfish Rev. C](https://github.com/staticintl
 * 13/10/2020: Updated to V1.1. Added F1 1206 500mA polyfuse.
 * 17/10/2020: Updated to V1.2. Moved location of parts closer to center.
 * 31/10/2020: Updated to V1.3. Added 0603 power indicator LED, changed R6 from 10k to 1k LED resistor.
-* 29/11/2020: Added THT pad under the 32u4 to allow for the Alvaro to be fully hand-solderable without a hot-air gun.
