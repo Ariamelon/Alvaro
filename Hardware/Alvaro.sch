@@ -585,7 +585,7 @@ U 1 1 5F668203
 P 2100 2200
 F 0 "P1" H 2207 3067 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2207 2976 50  0000 C CNN
-F 2 "Alvaro:USB-C_C168688" H 2250 2200 50  0001 C CNN
+F 2 "Alvaro:USB-C-C168688" H 2250 2200 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 2200 50  0001 C CNN
 	1    2100 2200
 	1    0    0    -1  
