@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Goldfish"
-Date "2017-12-20"
-Rev "C"
+Title "Alvaro"
+Date "2020-11-29"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -379,8 +379,6 @@ Connection ~ 5400 900
 Wire Wire Line
 	5000 900  5000 800 
 Connection ~ 5100 900 
-Text Notes 700  7600 0    60   ~ 0
-Released under the Creative Commons Attribution Share-Alike 4.0 License\nhttps://creativecommons.org/licenses/by-sa/4.0/\n\nOriginal Arduino Mini Design by Team Arduino\nArduino Pro Mini Design by Spark Fun Electronics\nPro Micro Design by Spark Fun Electronics\nGoldfish Design by dr_derivative
 $Comp
 L power:VBUS #PWR016
 U 1 1 5A78C3BD
@@ -585,7 +583,7 @@ U 1 1 5F668203
 P 2100 2200
 F 0 "P1" H 2207 3067 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2207 2976 50  0000 C CNN
-F 2 "Alvaro:USB-C_C168688" H 2250 2200 50  0001 C CNN
+F 2 "Alvaro:USB-C-C168688" H 2250 2200 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 2200 50  0001 C CNN
 	1    2100 2200
 	1    0    0    -1  
