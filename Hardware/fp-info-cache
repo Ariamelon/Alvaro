@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 19329175106694854
-=======
-19370879277692654
->>>>>>> Stashed changes
 AI03 Keyswitches
 ALPS-1.5U
 
@@ -1593,11 +1589,11 @@ Pins12
 12
 12
 Alvaro
-USB-C-C168688
+USB-C_C168688
 
 
 0
-16
+30
 11
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
