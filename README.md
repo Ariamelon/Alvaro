@@ -24,3 +24,4 @@ This board is a heavily-modified [Goldfish Rev. C](https://github.com/staticintl
 * 17/10/2020: Updated to V1.2. Moved location of parts closer to center.
 * 31/10/2020: Updated to V1.3. Added 0603 power indicator LED, changed R6 from 10k to 1k LED resistor.
 * 29/11/2020: Updated to V1.4. Increased size of 3225 crystal pads, changed USB C THT holes back to single oval shape, added THT pad under 32u4 to allow for the entire thing to be hand-soldered easier.
+* 3/12/2020: Updated to V1.5. Decreased size of 3225 crystal pads again and changed them to THT. Staggered components to allow for easier soldering. 

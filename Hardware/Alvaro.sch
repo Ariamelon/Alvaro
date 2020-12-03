@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Goldfish"
-Date "2017-12-20"
-Rev "C"
+Title "Alvaro"
+Date "2020-12-03"
+Rev "V1.5"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -379,8 +379,6 @@ Connection ~ 5400 900
 Wire Wire Line
 	5000 900  5000 800 
 Connection ~ 5100 900 
-Text Notes 700  7600 0    60   ~ 0
-Released under the Creative Commons Attribution Share-Alike 4.0 License\nhttps://creativecommons.org/licenses/by-sa/4.0/\n\nOriginal Arduino Mini Design by Team Arduino\nArduino Pro Mini Design by Spark Fun Electronics\nPro Micro Design by Spark Fun Electronics\nGoldfish Design by dr_derivative
 $Comp
 L power:VBUS #PWR016
 U 1 1 5A78C3BD
@@ -444,8 +442,6 @@ F 3 "" H 5050 3250 50  0001 C CNN
 	1    5050 3250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5050 3250 5350 3250
 Wire Wire Line
 	6000 900  6000 1000
 Wire Wire Line
@@ -1074,4 +1070,19 @@ Wire Wire Line
 	6900 900  6900 1400
 Connection ~ 6600 900 
 Connection ~ 6600 1400
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5FC92C0A
+P 5200 3250
+F 0 "JP1" H 5200 3435 50  0000 C CNN
+F 1 "RAW" H 5200 3344 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5200 3250 50  0001 C CNN
+F 3 "~" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3250 5300 3250
+Wire Wire Line
+	5100 3250 5050 3250
 $EndSCHEMATC

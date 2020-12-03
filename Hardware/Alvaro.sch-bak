@@ -445,8 +445,6 @@ F 3 "" H 5050 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5050 3250 5350 3250
-Wire Wire Line
 	6000 900  6000 1000
 Wire Wire Line
 	6000 1400 6000 1300
@@ -585,7 +583,7 @@ U 1 1 5F668203
 P 2100 2200
 F 0 "P1" H 2207 3067 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2207 2976 50  0000 C CNN
-F 2 "Alvaro:USB-C_C168688" H 2250 2200 50  0001 C CNN
+F 2 "Alvaro:USB-C-C168688" H 2250 2200 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 2200 50  0001 C CNN
 	1    2100 2200
 	1    0    0    -1  
@@ -1074,4 +1072,19 @@ Wire Wire Line
 	6900 900  6900 1400
 Connection ~ 6600 900 
 Connection ~ 6600 1400
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5FC92C0A
+P 5200 3250
+F 0 "JP1" H 5200 3435 50  0000 C CNN
+F 1 "RAW" H 5200 3344 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5200 3250 50  0001 C CNN
+F 3 "~" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3250 5300 3250
+Wire Wire Line
+	5100 3250 5050 3250
 $EndSCHEMATC
